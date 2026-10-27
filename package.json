@@ -1,0 +1,53 @@
+{
+  "name": "opencode-deepseek-search",
+  "version": "0.1.0",
+  "description": "DeepSeek Search & Fetch for OpenCode V2: a websearch provider plus deepseek_search and deepseek_fetch tools",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ivan Kiselev",
+  "homepage": "https://github.com/ivan1911/opencode-deepseek-search#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan1911/opencode-deepseek-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivan1911/opencode-deepseek-search/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "deepseek",
+    "websearch",
+    "search",
+    "fetch",
+    "ai"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.14"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.2.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode/plugin": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.2.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
