@@ -1,6 +1,6 @@
 {
   "name": "opencode-deepseek-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Search & Fetch for OpenCode V2: a websearch provider plus deepseek_search and deepseek_fetch tools",
   "type": "module",
   "license": "MIT",
